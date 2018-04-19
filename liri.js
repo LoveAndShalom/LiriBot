@@ -19,7 +19,7 @@ function twitter() {
 	});
 
 	// Declare user's screen name and tweets limit
-	var params = {screen_name: "TwidtTech", count: 20};
+	var params = {screen_name: "LoveAndShalom", count: 20};
 
 	// Request user's timeline
 	client.get("statuses/user_timeline", params, function(error, tweets, response){
